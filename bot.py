@@ -13,8 +13,11 @@ delay = 60 * 60 * 24 # seconds in a day
 datafile = './terminals.json'
 testmode = "--test" in sys.argv
 
-# Set up Mastodon if we're not in test mode
-if (not testmode):
+# If we're in test mode, reduce the delay to 5 secs. If we're
+# not in test mode, set up for the Mastodon API calls.
+if (testmode):
+    delay = 2
+else:
     from mastodon import Mastodon
     mastodon = Mastodon(
         access_token = 'token.secret',
