@@ -1,8 +1,80 @@
 [
   {
+    "make": "TeleVideo",
+    "model": "905",
+    "image": "TeleVideo_905.jpg",
+    "source": "https://terminals-wiki.org/wiki/index.php/TeleVideo_905",
+    "attributes": {
+      "Introduced": "December 1985",
+      "Interfaces": "RS-232C",
+      "Baud-Rates": "50 to 19200",
+      "Introductory-Price": "$400",
+      "Size": "14-inch",
+      "Phosphors": "P31 green",
+      "Refresh-Rates": "60 Hz, 50 Hz",
+      "Resolution": "80x24",
+      "Attributes": "Normal, Blink, Half Intensity, Protected, Reverse Video, Underline",
+      "Matrix": "7x9",
+      "Cell": "9x13"
+    }
+  },
+  {
+    "make": "Texas Instruments",
+    "model": "Silent 700 Model 733",
+    "image": "TI_Silent_700_Model_733.jpg",
+    "source": "https://terminals-wiki.org/wiki/index.php/TI_Silent_700_Model_733",
+    "attributes": {
+      "Introduced": "July 1973",
+      "Interfaces": "RS-232C",
+      "Baud-Rates": "110, 150, 300, 1200",
+      "Introductory-Price": "$1,500 (KSR), $2,750 (ASR)"
+    }
+  },
+  {
+    "make": "Plessey",
+    "model": "PT100",
+    "image": "Plessey_PT100.jpg",
+    "source": "http://terminals-wiki.org/wiki/index.php/Plessey_PT100",
+    "attributes": {
+      "Introduced": "prior to July 1980",
+      "Interfaces": "RS-232C, 20mA current loop",
+      "Baud-Rates": "19200",
+      "Size": "12-inch",
+      "Phosphors": "P4 white",
+      "Resolutions": "80x24, 132x14",
+      "Matrix": "7x9"
+    }
+  },
+  {
+    "make": "Computek",
+    "model": "200",
+    "image": "Computek_200.jpg",
+    "source": "http://terminals-wiki.org/wiki/index.php/Computek_200",
+    "attributes": {
+      "Introduced": "February 1982",
+      "Introductory-Price": "$699",
+      "Interfaces": "RS-232C",
+      "Baud-Rates": "75, 110, 150, 300, 600, 1200, 2400, 4800, 9600, 19200",
+      "Size": "12-inch"
+    }
+  },
+  {
+    "make": "Tandy",
+    "model": "DT-1",
+    "image": "Tandy_DT-1.jpg",
+    "source": "http://terminals-wiki.org/wiki/index.php/Tandy_DT-1",
+    "attributes": {
+      "Introduced": "February 1982",
+      "Introductory-Price": "$699",
+      "Interfaces": "RS-232C",
+      "Baud-Rates": "75, 110, 150, 300, 600, 1200, 2400, 4800, 9600, 19200",
+      "Size": "12-inch"
+    }
+  },
+  {
     "make": "DEC",
     "model": "VT100",
-    "image": "675px-DEC_VT100_terminal.jpg",
+    "image": "DEC_VT100.jpg",
     "source": "http://terminals-wiki.org/wiki/index.php/DEC_VT100",
     "attributes": {
       "Introduced": "August 1978",
@@ -10,7 +82,7 @@
       "Interfaces": "RS-232C, 20 mA current loop",
       "Baud-Rates": "50, 75, 110, 134.5, 150, 200, 300, 600, 1200, 1800, 2000, 2400, 3600, 4800, 9600, 19200",
       "Size": "12-inch",
-      "Phosphor": "P4 white",
+      "Phosphors": "P4 white",
       "Resolutions": "80x24, 132x14",
       "Attributes": "Normal, Blink, Bold, Reverse Video, Underline",
       "Matrix": "7x9",
@@ -22,7 +94,7 @@
   {
     "make": "Lear Siegler",
     "model": "ADM-3A",
-    "image": "800px-Lear_Siegler_ADM-3A-1.jpg",
+    "image": "Lear_Siegler_ADM-3A.jpg",
     "source": "http://terminals-wiki.org/wiki/index.php/Lear_Siegler_ADM-3A",
     "attributes": {
       "Introduced": "July 1976",
@@ -39,7 +111,7 @@
   {
     "make": "IBM",
     "model": "3278",
-    "image": "779px-IBM_3278_201375652652-1.jpg",
+    "image": "IBM_3278.jpg",
     "source": "http://terminals-wiki.org/wiki/index.php/IBM_3278",
     "attributes": {
       "Family": "IBM 3270"
@@ -48,7 +120,7 @@
   {
     "make": "Wyse",
     "model": "WY-50",
-    "image": "603px-Wyse_WY-50.jpg",
+    "image": "Wyse_WY-50.jpg",
     "source": "http://terminals-wiki.org/wiki/index.php/Wyse_WY-50",
     "attributes": {
       "Introduced": "October 1983",
