@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+grep \
+  --fixed-strings \
+  --line-regexp \
+  --invert-match \
+  --file=<(find images/ -type f | cut -d/ -f 2) \
+  <(jq -r .[].image terminals.json)
