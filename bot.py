@@ -29,16 +29,15 @@ with open(datafile) as f:
     data = json.load(f)
 terminals = data.copy()
 
-# Go on forever, picking a random terminal each time around. Remove
+# Go on forever, picking the next terminal each time around. Remove
 # each picked terminal from the list to avoid repeated consecutive
-# posts; refill the list when it gets empty (there's a chance of a repeat
-# over this refill boundary but that's OK).
+# posts; refill the list when it gets empty.
 while True:
 
-    # Pick a terminal at random and then remove it from the list
-    randomchoice = random.randrange(len(terminals))
-    terminal = terminals[randomchoice]
-    del terminals[randomchoice]
+    # Pick the first terminal in the list then remove it
+    choice = 0
+    terminal = terminals[choice]
+    del terminals[choice]
 
     # If we're down to zero in the list, refill it
     if len(terminals) <= 0:
